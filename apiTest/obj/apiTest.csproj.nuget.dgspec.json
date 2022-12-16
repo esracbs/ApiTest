@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ecaba\\source\\repos\\apiTest\\apiTest.csproj": {}
+    "C:\\Okul\\ApiTest\\apiTest\\apiTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ecaba\\source\\repos\\apiTest\\apiTest.csproj": {
+    "C:\\Okul\\ApiTest\\apiTest\\apiTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ecaba\\source\\repos\\apiTest\\apiTest.csproj",
+        "projectUniqueName": "C:\\Okul\\ApiTest\\apiTest\\apiTest.csproj",
         "projectName": "apiTest",
-        "projectPath": "C:\\Users\\ecaba\\source\\repos\\apiTest\\apiTest.csproj",
-        "packagesPath": "C:\\Users\\ecaba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ecaba\\source\\repos\\apiTest\\obj\\",
+        "projectPath": "C:\\Okul\\ApiTest\\apiTest\\apiTest.csproj",
+        "packagesPath": "C:\\Users\\test\\.nuget\\packages\\",
+        "outputPath": "C:\\Okul\\ApiTest\\apiTest\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ecaba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\test\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,8 +65,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -81,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

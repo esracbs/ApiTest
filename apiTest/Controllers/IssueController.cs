@@ -57,5 +57,20 @@ namespace apiTest.Controllers
             _context.SaveChangesAsync();
             return Ok("Başarıyla silindi...");
         }
+        [HttpGet("{issueType}")]
+        public IActionResult GetIssuesByIssueType(IssueType issueType)
+        {
+            var result = _context.Issues.ToList();
+            List<Issue> templist1 = new List<Issue>();
+            foreach (var issue in result)
+            {
+                if (issue.IssueType == issueType)
+                {
+                    templist1.Add(issue);
+                };
+            }
+            return Ok(templist1);
+
+        }
     }
 }
